@@ -20,3 +20,10 @@ void Swiat::RysujSwiat()
 		cout << endl;
 	}
 }
+
+void Swiat::InicjalizujSwiat()
+{
+	organizmy.push_back(new Wilk({ 0,7 }, *uklad));
+	organizmy.push_back(new Wilk({ 11,3 }, *uklad));
+	organizmy.push_back(new Wilk({ 15,19 }, *uklad));
+}

@@ -12,6 +12,7 @@ private:
 	point size = { 20,20 };
 	char uklad[40][40];
 	vector <Organizm*> organizmy;
+
 public:
 	Swiat(int M = 20, int N = 20)
 	{
@@ -24,10 +25,11 @@ public:
 		for (int i = 0; i < N; i++) uklad[M][i] = '#';
 		uklad[M][N] = '#';
 
-		organizmy.push_back(new Wilk({ 2,2 }));
-		organizmy[0]->rysowanie(*uklad,size);
+	//	organizmy.push_back(new Wilk({ 2,2 }, *uklad));
+		InicjalizujSwiat();
 
 	}
 	void RysujSwiat();
 	void WykonajTure();
+	void InicjalizujSwiat();
 };
