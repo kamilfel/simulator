@@ -144,6 +144,8 @@
   <ItemGroup>
     <ClInclude Include="Organizm.h" />
     <ClInclude Include="Swiat.h" />
+    <ClInclude Include="Wilk.h" />
+    <ClInclude Include="Zwierze.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
