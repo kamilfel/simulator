@@ -6,5 +6,16 @@ class Zwierze
 	: public Organizm
 {
 public:
-	Zwierze();
+	Zwierze()
+	{
+
+	}
+	void akcja() override
+	{
+
+	}
+	void kolizja() override
+	{
+
+	}
 };

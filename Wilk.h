@@ -6,5 +6,10 @@ class Wilk
 	: public Zwierze
 {
 public:
-	Wilk();
+	Wilk(point pole)
+	{
+		sila = 9;
+		inicjatywa = 11;
+		polozenie = pole;
+	}
 };

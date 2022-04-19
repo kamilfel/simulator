@@ -1,6 +1,6 @@
 #include <iostream>
 #include <conio.h>
-#include "Swiat.h"
+#include "Wilk.h"
 
 using namespace std;
 
@@ -8,5 +8,6 @@ int main()
 {
 	Swiat gra(20,20);
 	gra.WykonajTure();
+	Wilk w1{ {2,2} };
 	return 0;
 }
