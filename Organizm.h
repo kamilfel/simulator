@@ -7,7 +7,7 @@ protected:
 	int sila = 0;
 	int inicjatywa = 0;
 	point polozenie = { 0,0 };
-	//Swiat& swiat;
+	Swiat* swiat;
 public:
 	Organizm()
 	{

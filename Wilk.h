@@ -6,10 +6,11 @@ class Wilk
 	: public Zwierze
 {
 public:
-	Wilk(point pole)
+	Wilk(point pole, Swiat* gra)
 	{
 		sila = 9;
 		inicjatywa = 11;
 		polozenie = pole;
+		swiat = gra;
 	}
 };
