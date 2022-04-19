@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-	Swiat gra;
-	cout << "Jakos to dziala";
+	Swiat gra(20,20);
+	gra.WykonajTure();
 	return 0;
 }

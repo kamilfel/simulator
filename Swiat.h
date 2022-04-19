@@ -10,7 +10,9 @@ class Swiat
 {
 private:
 	point size = { 20,20 };
+	char uklad[40][40];
 public:
+	Swiat(int,int);
 	void RysujSwiat();
 	void WykonajTure();
 };
