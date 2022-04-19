@@ -1,3 +1,4 @@
+#pragma once
 #include "Organizm.h"
 
 using namespace std;
